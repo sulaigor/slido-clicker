@@ -9,8 +9,8 @@
   },
   "scripts": {
     "check-types": "tsc --noEmit",
-    "run-file": "ts-node -r tsconfig-paths/register",
-    "run-clicker": "npm run run-file -- index.ts",
+    "run-script": "ts-node -r tsconfig-paths/register",
+    "run-clicker": "npm run run-script -- index.ts",
     "prepare": "husky install"
   },
   "dependencies": {
